@@ -535,6 +535,13 @@ Options:
 
 --------------------------------------------------
 
+Original command: aws --version
+Parsed command: aws
+Options:
+  version: (flag, no value)
+
+--------------------------------------------------
+
 Original command: aws configure sso
 Parsed command: aws configure sso
 Options:
@@ -624,8 +631,51 @@ Options:
 
 --------------------------------------------------
 
-Original command: ws ecs list-tasks  aws ecs list-tasks  aws ecs list-tasks  aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
-Parsed command: ws ecs list-tasks aws ecs list-tasks aws ecs list-tasks aws ecs execute-command
+Original command: ws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-playground
+Parsed command: ws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-playground
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-staging
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive  --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11  --profile sprinto-dev-staging
+Parsed command: aws ecs execute-command
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  container: webapp
+  region: us-east-1
+  command: "/bin/bash"
+  interactive: (flag, no value)
+  task: arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: aws ecs execute-command
 Options:
   cluster: sprinto-pod1-ecs-cluster
   container: webapp
@@ -644,11 +694,18 @@ Options:
 
 --------------------------------------------------
 
-Original command: sudo installer -pkg session-manager-plugin.pkg -target / aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Original command: sudo installer -pkg session-manager-plugin.pkg -target / sudo ln -s /usr/local/sessionmanagerplugin/bin/session-manager-plugin /usr/local/bin/session-manager-plugin
 Parsed command: sudo installer
 Options:
   pkg: session-manager-plugin.pkg
   target: /
+  s: /usr/local/sessionmanagerplugin/bin/session-manager-plugin
+
+--------------------------------------------------
+
+Original command: aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: aws ecs execute-command
+Options:
   cluster: sprinto-pod1-ecs-cluster
   container: webapp
   region: us-east-1
@@ -659,8 +716,38 @@ Options:
 
 --------------------------------------------------
 
-Original command: aws ecs list-tasks  aws ecs list-tasks  aws ecs list-tasks  aws s3 ls --profile sprinto-dev-playground
-Parsed command: aws ecs list-tasks aws ecs list-tasks aws ecs list-tasks aws s3 ls
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-staging
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-playground
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-staging
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprinto-dev-playground
+Parsed command: aws s3 ls
 Options:
   profile: sprinto-dev-playground
 
@@ -718,8 +805,41 @@ Options:
 
 --------------------------------------------------
 
-Original command: aws ecs list-tasks  aws ecs list-tasks  aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
-Parsed command: aws ecs list-tasks aws ecs list-tasks aws ecs execute-command
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-playground
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  --cluster sprinto-pod1-ecs-cluster  --service-name sprinto-pod1-ecs-webapp-service  --region us-east-1  --profile sprinto-dev-staging
+Parsed command: aws ecs list-tasks
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  service-name: sprinto-pod1-ecs-webapp-service
+  region: us-east-1
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive  --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11  --profile sprinto-dev-staging
+Parsed command: aws ecs execute-command
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  container: webapp
+  region: us-east-1
+  command: "/bin/bash"
+  interactive: (flag, no value)
+  task: arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: aws ecs execute-command
 Options:
   cluster: sprinto-pod1-ecs-cluster
   container: webapp
@@ -990,8 +1110,20 @@ Options:
 
 --------------------------------------------------
 
-Original command: env | grep TERM code ~/.zshrc cd Sprinto/sprinto
-Parsed command: env | grep TERM code ~/.zshrc cd Sprinto/sprinto
+Original command: env | grep TERM 
+Parsed command: env | grep TERM
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc 
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto/sprinto
+Parsed command: cd Sprinto/sprinto
 Options:
 
 --------------------------------------------------
@@ -1136,8 +1268,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: cp .env.example .env cd
-Parsed command: cp .env.example .env cd
+Original command: cp .env.example .env cp .env.db.example .env.db
+Parsed command: cp .env.example .env cp .env.db.example .env.db
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
 Options:
 
 --------------------------------------------------
@@ -1148,15 +1286,33 @@ Options:
 
 --------------------------------------------------
 
-Original command: cp .env.example .env locate psql | grep /bin sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
-Parsed command: cp .env.example .env locate psql | grep /bin sudo launchctl load
+Original command: cp .env.example .env cp .env.db.example .env.db
+Parsed command: cp .env.example .env cp .env.db.example .env.db
+Options:
+
+--------------------------------------------------
+
+Original command: locate psql | grep /bin 
+Parsed command: locate psql | grep /bin
+Options:
+
+--------------------------------------------------
+
+Original command: sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+Parsed command: sudo launchctl load
 Options:
   w: /System/Library/LaunchDaemons/com.apple.locate.plist
 
 --------------------------------------------------
 
-Original command: locate psql | grep /bin code ../credentials
-Parsed command: locate psql | grep /bin code ../credentials
+Original command: locate psql | grep /bin 
+Parsed command: locate psql | grep /bin
+Options:
+
+--------------------------------------------------
+
+Original command: code ../credentials
+Parsed command: code ../credentials
 Options:
 
 --------------------------------------------------
@@ -1173,8 +1329,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: brew install redis echo >> /Users/subhamtibra/.zprofile
-Parsed command: brew install redis echo >> /Users/subhamtibra/.zprofile
+Original command: brew install redis 
+Parsed command: brew install redis
+Options:
+
+--------------------------------------------------
+
+Original command: echo >> /Users/subhamtibra/.zprofile
+Parsed command: echo >> /Users/subhamtibra/.zprofile
 Options:
 
 --------------------------------------------------
@@ -1197,8 +1359,20 @@ Options:
 
 --------------------------------------------------
 
-Original command: brew install redis redis-server brew services start redis
-Parsed command: brew install redis redis-server brew services start redis
+Original command: brew install redis 
+Parsed command: brew install redis
+Options:
+
+--------------------------------------------------
+
+Original command: redis-server 
+Parsed command: redis-server
+Options:
+
+--------------------------------------------------
+
+Original command: brew services start redis
+Parsed command: brew services start redis
 Options:
 
 --------------------------------------------------
@@ -1315,8 +1489,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: systemctl status systemd-homed sudo rm -rf ~/Library/Containers/org.p0deje.Maccy
-Parsed command: systemctl status systemd-homed sudo rm
+Original command: systemctl status systemd-homed 
+Parsed command: systemctl status systemd-homed
+Options:
+
+--------------------------------------------------
+
+Original command: sudo rm -rf ~/Library/Containers/org.p0deje.Maccy
+Parsed command: sudo rm
 Options:
   rf: ~/Library/Containers/org.p0deje.Maccy
 
@@ -1350,14 +1530,32 @@ Options:
 
 --------------------------------------------------
 
-Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions code ~/.zshrc
-Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions code ~/.zshrc
+Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions 
+Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 Options:
 
 --------------------------------------------------
 
-Original command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-Parsed command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use git clone
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
+Parsed command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use 
+Parsed command: git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+Options:
+
+--------------------------------------------------
+
+Original command: git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+Parsed command: git clone
 Options:
   depth: 1
 
@@ -1375,8 +1573,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions op
-Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions op
+Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions 
+Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+Options:
+
+--------------------------------------------------
+
+Original command: op
+Parsed command: op
 Options:
 
 --------------------------------------------------
@@ -1735,8 +1939,32 @@ Options:
 
 --------------------------------------------------
 
-Original command: npm install npm run migrate npm run build-antd brew doctor brew link --force libpq
-Parsed command: npm install npm run migrate npm run build-antd brew doctor brew link
+Original command: npm install 
+Parsed command: npm install
+Options:
+
+--------------------------------------------------
+
+Original command: npm run migrate 
+Parsed command: npm run migrate
+Options:
+
+--------------------------------------------------
+
+Original command: npm run build-antd 
+Parsed command: npm run build-antd
+Options:
+
+--------------------------------------------------
+
+Original command: brew doctor brew update brew install libpq
+Parsed command: brew doctor brew update brew install libpq
+Options:
+
+--------------------------------------------------
+
+Original command: brew link --force libpq
+Parsed command: brew link
 Options:
   force: libpq
 
@@ -1764,10 +1992,16 @@ Options:
 
 --------------------------------------------------
 
-Original command: psql -c 'create database sprinto_base_2023_06_21 node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Original command: psql -c 'create database sprinto_base_2023_06_21  '
 Parsed command: psql
 Options:
   c: 'create
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: node scripts/db-checkout.js
+Options:
   remote-db: sprinto_base_2023_06_21
   profile: sprinto-dev
 
@@ -2065,10 +2299,16 @@ Options:
 
 --------------------------------------------------
 
-Original command: sudo chown -R subhamtibra /usr/local/bin config
+Original command: sudo chown -R subhamtibra /usr/local/bin 
 Parsed command: sudo chown
 Options:
   R: subhamtibra
+
+--------------------------------------------------
+
+Original command: config
+Parsed command: config
+Options:
 
 --------------------------------------------------
 
@@ -2114,8 +2354,20 @@ Options:
 
 --------------------------------------------------
 
-Original command: cd ../ cd ../../Sprinto/sprinto/ chmod +x frequentCommands.zsh
-Parsed command: cd ../ cd ../../Sprinto/sprinto/ chmod +x frequentCommands.zsh
+Original command: cd ../  
+Parsed command: cd ../
+Options:
+
+--------------------------------------------------
+
+Original command: cd ../../Sprinto/sprinto/  
+Parsed command: cd ../../Sprinto/sprinto/
+Options:
+
+--------------------------------------------------
+
+Original command: chmod +x frequentCommands.zsh
+Parsed command: chmod +x frequentCommands.zsh
 Options:
 
 --------------------------------------------------
@@ -2234,8 +2486,20 @@ Options:
 
 --------------------------------------------------
 
-Original command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zshrc
-Parsed command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zshrc
+Original command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist 
+Parsed command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
 Options:
 
 --------------------------------------------------
@@ -2246,8 +2510,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: launchctl start com.user.frequentcommands ./
-Parsed command: launchctl start com.user.frequentcommands ./
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: ./
+Parsed command: ./
 Options:
 
 --------------------------------------------------
@@ -2258,20 +2528,50 @@ Options:
 
 --------------------------------------------------
 
-Original command: launchctl start com.user.frequentcommands cp com.user.frequentcommands.plist ~/Library/LaunchAgents
-Parsed command: launchctl start com.user.frequentcommands cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
 Options:
 
 --------------------------------------------------
 
-Original command: launchctl start com.user.frequentcommands code ~/Library/LaunchAgents/com.user.frequentcommands.plist
-Parsed command: launchctl start com.user.frequentcommands code ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Original command: cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Parsed command: cp com.user.frequentcommands.plist ~/Library/LaunchAgents
 Options:
 
 --------------------------------------------------
 
-Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands awsssolog
-Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands awsssolog
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Parsed command: code ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist 
+Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist 
+Parsed command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: awsssolog
+Parsed command: awsssolog
 Options:
 
 --------------------------------------------------
@@ -2391,8 +2691,14 @@ Options:
 
 --------------------------------------------------
 
-Original command: node ../createUser.js yourpassword echo $PATH
-Parsed command: node ../createUser.js yourpassword echo $PATH
+Original command: node ../createUser.js yourpassword 
+Parsed command: node ../createUser.js yourpassword
+Options:
+
+--------------------------------------------------
+
+Original command: echo $PATH
+Parsed command: echo $PATH
 Options:
 
 --------------------------------------------------
@@ -2589,20 +2895,50 @@ Options:
 
 --------------------------------------------------
 
-Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zsh_aliases
-Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist 
+Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist
 Options:
 
 --------------------------------------------------
 
-Original command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
-Parsed command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Original command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist 
+Parsed command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist
 Options:
 
 --------------------------------------------------
 
-Original command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
-Parsed command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands 
+Parsed command: launchctl start com.user.frequentcommands
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
 Options:
 
 --------------------------------------------------
@@ -2744,6 +3080,18 @@ Options:
 
 Original command: python testParser.py
 Parsed command: python testParser.py
+Options:
+
+--------------------------------------------------
+
+Original command: python testParser.py > results.txt
+Parsed command: python testParser.py > results.txt
+Options:
+
+--------------------------------------------------
+
+Original command: cp ~/.zsh_history .
+Parsed command: cp ~/.zsh_history .
 Options:
 
 --------------------------------------------------
