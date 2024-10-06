@@ -1,0 +1,2756 @@
+Command: git commit
+Options:
+  m: "Initial commit"
+  amend: (flag, no value)
+  author: "John Doe <john@example.com>"
+  no-edit: (flag, no value)
+Original command: node -v
+Parsed command: node
+Options:
+  v: (flag, no value)
+
+--------------------------------------------------
+
+Original command: npm i
+Parsed command: npm i
+Options:
+
+--------------------------------------------------
+
+Original command: mkdir Sprinto
+Parsed command: mkdir Sprinto
+Options:
+
+--------------------------------------------------
+
+Original command: mkdir PersonalProjects
+Parsed command: mkdir PersonalProjects
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto
+Parsed command: cd Sprinto
+Options:
+
+--------------------------------------------------
+
+Original command: git clone git@github.com:goSprinto/sprinto.git
+Parsed command: git clone git@github.com:goSprinto/sprinto.git
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/goSprinto/sprinto.git
+Parsed command: git clone https://github.com/goSprinto/sprinto.git
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/goSprinto/sprinto.git
+Parsed command: git clone https://github.com/goSprinto/sprinto.git
+Options:
+
+--------------------------------------------------
+
+Original command: clear
+Parsed command: clear
+Options:
+
+--------------------------------------------------
+
+Original command: git config --global user.email subhamt@sprinto.com
+Parsed command: git config
+Options:
+  global: user.email
+
+--------------------------------------------------
+
+Original command: git config --global user.name "Subham Tibra"
+Parsed command: git config
+Options:
+  global: user.name
+
+--------------------------------------------------
+
+Original command: ssh -T git@github.com
+Parsed command: ssh
+Options:
+  T: git@github.com
+
+--------------------------------------------------
+
+Original command: git config --global --get user.email
+Parsed command: git config
+Options:
+  global: (flag, no value)
+  get: user.email
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd Downloads
+Parsed command: cd Downloads
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: chrome-schismator.sh
+Parsed command: chrome-schismator.sh
+Options:
+
+--------------------------------------------------
+
+Original command: sh chrome-schismator.sh
+Parsed command: sh chrome-schismator.sh
+Options:
+
+--------------------------------------------------
+
+Original command: bash chrome-schismator.sh
+Parsed command: bash chrome-schismator.sh
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd Library/Application Support/Google/Chrome
+Parsed command: cd Library/Application Support/Google/Chrome
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd cdi-chrome-multiple-profile-instances-in-dock-with-different-icons.d
+Parsed command: cd cdi-chrome-multiple-profile-instances-in-dock-with-different-icons.d
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cat profiles.txt
+Parsed command: cat profiles.txt
+Options:
+
+--------------------------------------------------
+
+Original command: cd Chrome-Launchers
+Parsed command: cd Chrome-Launchers
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/Library/Application Support/Google/Chrome
+Parsed command: cd ~/Library/Application Support/Google/Chrome
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd cdi-chrome-multiple-profile-instances-in-dock-with-different-icons.d
+Parsed command: cd cdi-chrome-multiple-profile-instances-in-dock-with-different-icons.d
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd Chrome-Launchers
+Parsed command: cd Chrome-Launchers
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd Chrome-Runtimes
+Parsed command: cd Chrome-Runtimes
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: cat profiles.txt
+Parsed command: cat profiles.txt
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: open -na "Google Chrome" --args --profile-directory="sprinto.com"
+Parsed command: open
+Options:
+  na: "Google Chrome"
+  args: (flag, no value)
+  profile-directory: "sprinto.com"
+
+--------------------------------------------------
+
+Original command: open -na "Google Chrome" --args --profile-directory="Subham"
+Parsed command: open
+Options:
+  na: "Google Chrome"
+  args: (flag, no value)
+  profile-directory: "Subham"
+
+--------------------------------------------------
+
+Original command: ls ~/Library/Application Support/Google/Chrome
+Parsed command: ls ~/Library/Application Support/Google/Chrome
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/Library/Application Support/Google/Chrome/Default
+Parsed command: ls ~/Library/Application Support/Google/Chrome/Default
+Options:
+
+--------------------------------------------------
+
+Original command: clear
+Parsed command: clear
+Options:
+
+--------------------------------------------------
+
+Original command: nvm
+Parsed command: nvm
+Options:
+
+--------------------------------------------------
+
+Original command: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+Parsed command: curl
+Options:
+  o-: https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: source ~/.zshrc
+Parsed command: source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/
+Parsed command: ls ~/
+Options:
+
+--------------------------------------------------
+
+Original command: rm Su*scpt
+Parsed command: rm Su*scpt
+Options:
+
+--------------------------------------------------
+
+Original command: rm Su**scpt
+Parsed command: rm Su**scpt
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: rm Su**scpt
+Parsed command: rm Su**scpt
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: rm **scpt**
+Parsed command: rm **scpt**
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd .nvm
+Parsed command: cd .nvm
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: bash install.sh
+Parsed command: bash install.sh
+Options:
+
+--------------------------------------------------
+
+Original command: cat ~/.zshrc
+Parsed command: cat ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: vscode ~/.zshrc
+Parsed command: vscode ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: touch ~/.zshrc
+Parsed command: touch ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: sudo touch ~/.zshrc
+Parsed command: sudo touch ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: cat ~/.zshrc
+Parsed command: cat ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: nano ~/.zshrc
+Parsed command: nano ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: nano ~/.zshrc
+Parsed command: nano ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: cat ~/.zshrc
+Parsed command: cat ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: nvm version
+Parsed command: nvm version
+Options:
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: aws sso login
+Parsed command: aws sso login
+Options:
+
+--------------------------------------------------
+
+Original command: nvm use
+Parsed command: nvm use
+Options:
+
+--------------------------------------------------
+
+Original command: node -v
+Parsed command: node
+Options:
+  v: (flag, no value)
+
+--------------------------------------------------
+
+Original command: which aws aws --version
+Parsed command: which aws aws
+Options:
+  version: (flag, no value)
+
+--------------------------------------------------
+
+Original command: aws configure sso
+Parsed command: aws configure sso
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprinto-dev-playground
+Parsed command: aws s3 ls
+Options:
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws configure sso
+Parsed command: aws configure sso
+Options:
+
+--------------------------------------------------
+
+Original command: aws sso login --profile sprinto-dev-playground
+Parsed command: aws sso login
+Options:
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: code ~/.aws/config
+Parsed command: code ~/.aws/config
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.aws/
+Parsed command: code ~/.aws/
+Options:
+
+--------------------------------------------------
+
+Original command: npm install --include=dev
+Parsed command: npm install
+Options:
+  include: dev
+
+--------------------------------------------------
+
+Original command: npx ssocreds -p sprinto-dev-playground
+Parsed command: npx ssocreds
+Options:
+  p: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: npm i -g aws-sso-cred-helper
+Parsed command: npm i
+Options:
+  g: aws-sso-cred-helper
+
+--------------------------------------------------
+
+Original command: cd ~/.aws
+Parsed command: cd ~/.aws
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto/s
+Parsed command: cd Sprinto/s
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto/sprinto
+Parsed command: cd Sprinto/sprinto
+Options:
+
+--------------------------------------------------
+
+Original command: ws ecs list-tasks  aws ecs list-tasks  aws ecs list-tasks  aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: ws ecs list-tasks aws ecs list-tasks aws ecs list-tasks aws ecs execute-command
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  container: webapp
+  region: us-east-1
+  command: "/bin/bash"
+  interactive: (flag, no value)
+  task: arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac_arm64/session-manager-plugin.pkg" -o "session-manager-plugin.pkg"
+Parsed command: curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac_arm64/session-manager-plugin.pkg"
+Options:
+  o: "session-manager-plugin.pkg"
+
+--------------------------------------------------
+
+Original command: sudo installer -pkg session-manager-plugin.pkg -target / aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: sudo installer
+Options:
+  pkg: session-manager-plugin.pkg
+  target: /
+  cluster: sprinto-pod1-ecs-cluster
+  container: webapp
+  region: us-east-1
+  command: "/bin/bash"
+  interactive: (flag, no value)
+  task: arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  aws ecs list-tasks  aws ecs list-tasks  aws s3 ls --profile sprinto-dev-playground
+Parsed command: aws ecs list-tasks aws ecs list-tasks aws ecs list-tasks aws s3 ls
+Options:
+  profile: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprinto-dev-staging
+Parsed command: aws s3 ls
+Options:
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: code ~/.aws
+Parsed command: code ~/.aws
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: npx ssocreds -p sprinto-dev-playground
+Parsed command: npx ssocreds
+Options:
+  p: sprinto-dev-playground
+
+--------------------------------------------------
+
+Original command: aws ecs list-tasks  aws ecs list-tasks  aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp aws ecs execute-command --cluster sprinto-pod1-ecs-cluster --container webapp --region us-east-1 --command "/bin/bash" --interactive --task arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11 --profile sprinto-dev-staging
+Parsed command: aws ecs list-tasks aws ecs list-tasks aws ecs execute-command
+Options:
+  cluster: sprinto-pod1-ecs-cluster
+  container: webapp
+  region: us-east-1
+  command: "/bin/bash"
+  interactive: (flag, no value)
+  task: arn:aws:ecs:us-east-1:663481567790:task/sprinto-pod1-ecs-cluster/6a880cf23fb345e0bae84eecaf23ed11
+  profile: sprinto-dev-staging
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: code ~/.aws/config
+Parsed command: code ~/.aws/config
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprinto-dev
+Parsed command: aws s3 ls
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: aws sso login
+Parsed command: aws sso login
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure sso
+Parsed command: aws configure sso
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprintodev-admin
+Parsed command: aws s3 ls
+Options:
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:container-exec
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: container-exec
+
+--------------------------------------------------
+
+Original command: node scripts/db-list.js --profile sprinto-dev
+Parsed command: node scripts/db-list.js
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: node scripts/db-list.js --profile:sprinto-dev
+Parsed command: node scripts/db-list.js
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: aws sso login
+Parsed command: aws sso login
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprinto-dev
+Parsed command: aws s3 ls
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: psql
+Parsed command: psql
+Options:
+
+--------------------------------------------------
+
+Original command: clear
+Parsed command: clear
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:sprintodev-admin
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:sprintodev-admin
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:sprintodev-admin
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: node scripts/db-list.js --profile:sprintodev-admin
+Parsed command: node scripts/db-list.js
+Options:
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: aws configure sso
+Parsed command: aws configure sso
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/db-list.js --profile:sprinto-dev
+Parsed command: node scripts/db-list.js
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: cd ~ ; code .zshrc
+Parsed command: cd ~ ; code .zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure sso
+Parsed command: aws configure sso
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls --profile sprintodev-admin
+Parsed command: aws s3 ls
+Options:
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: aws sso login --profile sprintodev-admin
+Parsed command: aws sso login
+Options:
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: node scripts/ecs-connect.js --env:prod --profile:sprintodev-admin
+Parsed command: node scripts/ecs-connect.js
+Options:
+  env: prod
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Parsed command: /bin/bash
+Options:
+  c: "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+--------------------------------------------------
+
+Original command: code ~/.zprofile
+Parsed command: code ~/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: echo >> /Users/subhamtibra/.zprofile
+Parsed command: echo >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/subhamtibra/.zprofile
+Parsed command: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Parsed command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Options:
+
+--------------------------------------------------
+
+Original command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Parsed command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Options:
+
+--------------------------------------------------
+
+Original command: echo >> /Users/subhamtibra/.zprofile
+Parsed command: echo >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Parsed command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Options:
+
+--------------------------------------------------
+
+Original command: echo >> /Users/subhamtibra/.zprofile
+Parsed command: echo >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zprofile
+Parsed command: code ~/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: brew
+Parsed command: brew
+Options:
+
+--------------------------------------------------
+
+Original command: brew install zsh
+Parsed command: brew install zsh
+Options:
+
+--------------------------------------------------
+
+Original command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+Parsed command: sh
+Options:
+  c: "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+--------------------------------------------------
+
+Original command: env | grep TERM code ~/.zshrc cd Sprinto/sprinto
+Parsed command: env | grep TERM code ~/.zshrc cd Sprinto/sprinto
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam create-access-key
+Parsed command: aws iam create-access-key
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure
+Parsed command: aws configure
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam create-access-key
+Parsed command: aws iam create-access-key
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/.aws
+Parsed command: cd ~/.aws
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam list-access-keys
+Parsed command: aws iam list-access-keys
+Options:
+
+--------------------------------------------------
+
+Original command: code config
+Parsed command: code config
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam create-access-key
+Parsed command: aws iam create-access-key
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure
+Parsed command: aws configure
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam create-access-key --profile sprinto-dev
+Parsed command: aws iam create-access-key
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: cp credentials ~/Sprinto/
+Parsed command: cp credentials ~/Sprinto/
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam list-access-keys
+Parsed command: aws iam list-access-keys
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure
+Parsed command: aws configure
+Options:
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure --profile sprinto-dev
+Parsed command: aws configure
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: code config.backup
+Parsed command: code config.backup
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam list-access-keys
+Parsed command: aws iam list-access-keys
+Options:
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: aws configure set aws_secret_access_key qReqsvw3YmXCzOcWtMzDzR/1GAZ//1OK4+BcTBNy
+Parsed command: aws configure set aws_secret_access_key qReqsvw3YmXCzOcWtMzDzR/1GAZ//1OK4+BcTBNy
+Options:
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam list-access-keys
+Parsed command: aws iam list-access-keys
+Options:
+
+--------------------------------------------------
+
+Original command: cp .env.example .env cd
+Parsed command: cp .env.example .env cd
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto/sprinto
+Parsed command: cd Sprinto/sprinto
+Options:
+
+--------------------------------------------------
+
+Original command: cp .env.example .env locate psql | grep /bin sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+Parsed command: cp .env.example .env locate psql | grep /bin sudo launchctl load
+Options:
+  w: /System/Library/LaunchDaemons/com.apple.locate.plist
+
+--------------------------------------------------
+
+Original command: locate psql | grep /bin code ../credentials
+Parsed command: locate psql | grep /bin code ../credentials
+Options:
+
+--------------------------------------------------
+
+Original command: psql
+Parsed command: psql
+Options:
+
+--------------------------------------------------
+
+Original command: /Library/PostgreSQL/16/scripts/runpsql.sh; exit
+Parsed command: /Library/PostgreSQL/16/scripts/runpsql.sh; exit
+Options:
+
+--------------------------------------------------
+
+Original command: brew install redis echo >> /Users/subhamtibra/.zprofile
+Parsed command: brew install redis echo >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/subhamtibra/.zprofile
+Parsed command: echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Parsed command: eval "$(/opt/homebrew/bin/brew shellenv)"
+Options:
+
+--------------------------------------------------
+
+Original command: echo >> /Users/subhamtibra/.zprofile
+Parsed command: echo >> /Users/subhamtibra/.zprofile
+Options:
+
+--------------------------------------------------
+
+Original command: brew install redis redis-server brew services start redis
+Parsed command: brew install redis redis-server brew services start redis
+Options:
+
+--------------------------------------------------
+
+Original command: brew services info redis
+Parsed command: brew services info redis
+Options:
+
+--------------------------------------------------
+
+Original command: redis-cli
+Parsed command: redis-cli
+Options:
+
+--------------------------------------------------
+
+Original command: locate psql
+Parsed command: locate psql
+Options:
+
+--------------------------------------------------
+
+Original command: which psql
+Parsed command: which psql
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: locate psql | grep /bin
+Parsed command: locate psql | grep /bin
+Options:
+
+--------------------------------------------------
+
+Original command: code credentials
+Parsed command: code credentials
+Options:
+
+--------------------------------------------------
+
+Original command: code ../credentials
+Parsed command: code ../credentials
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: rm  ~/Applications/Maccy.app
+Parsed command: rm ~/Applications/Maccy.app
+Options:
+
+--------------------------------------------------
+
+Original command: rm -rf  ~/Applications/Maccy.app
+Parsed command: rm
+Options:
+  rf: ~/Applications/Maccy.app
+
+--------------------------------------------------
+
+Original command: rm -rf  ~/Library/Containers/org.p0deje.Maccy
+Parsed command: rm
+Options:
+  rf: ~/Library/Containers/org.p0deje.Maccy
+
+--------------------------------------------------
+
+Original command: sudo rm -rf  ~/Library/Containers/org.p0deje.Maccy
+Parsed command: sudo rm
+Options:
+  rf: ~/Library/Containers/org.p0deje.Maccy
+
+--------------------------------------------------
+
+Original command: su
+Parsed command: su
+Options:
+
+--------------------------------------------------
+
+Original command: read a
+Parsed command: read a
+Options:
+
+--------------------------------------------------
+
+Original command: echo $a
+Parsed command: echo $a
+Options:
+
+--------------------------------------------------
+
+Original command: sudo rm -rf  ~/Library/Containers/org.p0deje.Maccy
+Parsed command: sudo rm
+Options:
+  rf: ~/Library/Containers/org.p0deje.Maccy
+
+--------------------------------------------------
+
+Original command: su
+Parsed command: su
+Options:
+
+--------------------------------------------------
+
+Original command: systemctl status systemd-homed sudo rm -rf ~/Library/Containers/org.p0deje.Maccy
+Parsed command: systemctl status systemd-homed sudo rm
+Options:
+  rf: ~/Library/Containers/org.p0deje.Maccy
+
+--------------------------------------------------
+
+Original command: rm -rf ~Preferences/org.p0deje.Maccy.plist
+Parsed command: rm
+Options:
+  rf: ~Preferences/org.p0deje.Maccy.plist
+
+--------------------------------------------------
+
+Original command: rm -rf ~/Preferences/org.p0deje.Maccy.plist
+Parsed command: rm
+Options:
+  rf: ~/Preferences/org.p0deje.Maccy.plist
+
+--------------------------------------------------
+
+Original command: rm -rf ~/Scripts/org.p0deje.Maccy-LaunchAtLoginHelper/
+Parsed command: rm
+Options:
+  rf: ~/Scripts/org.p0deje.Maccy-LaunchAtLoginHelper/
+
+--------------------------------------------------
+
+Original command: rm -rf ~/Scripts/org.p0deje.Maccy
+Parsed command: rm
+Options:
+  rf: ~/Scripts/org.p0deje.Maccy
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions code ~/.zshrc
+Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+Parsed command: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use git clone
+Options:
+  depth: 1
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+Options:
+
+--------------------------------------------------
+
+Original command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions op
+Parsed command: git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions op
+Options:
+
+--------------------------------------------------
+
+Original command: brew install 1password-cli
+Parsed command: brew install 1password-cli
+Options:
+
+--------------------------------------------------
+
+Original command: op plugin init aws
+Parsed command: op plugin init aws
+Options:
+
+--------------------------------------------------
+
+Original command: cho "source /Users/subhamtibra/.config/op/plugins.sh" >> ~/.zshrc && source ~/.zshrc
+Parsed command: cho "source /Users/subhamtibra/.config/op/plugins.sh" >> ~/.zshrc && source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: echo "source /Users/subhamtibra/.config/op/plugins.sh" >> ~/.zshrc && source ~/.zshrc
+Parsed command: echo "source /Users/subhamtibra/.config/op/plugins.sh" >> ~/.zshrc && source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: aws iam list-access-keys
+Parsed command: aws iam list-access-keys
+Options:
+
+--------------------------------------------------
+
+Original command: aws sso login --profile sprintodev-admin
+Parsed command: aws sso login
+Options:
+  profile: sprintodev-admin
+
+--------------------------------------------------
+
+Original command: code ~/.aws/credentials
+Parsed command: code ~/.aws/credentials
+Options:
+
+--------------------------------------------------
+
+Original command: code 
+Parsed command: code
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.aws/config
+Parsed command: code ~/.aws/config
+Options:
+
+--------------------------------------------------
+
+Original command: aws sso login
+Parsed command: aws sso login
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls
+Parsed command: aws s3 ls
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls
+Parsed command: aws s3 ls
+Options:
+
+--------------------------------------------------
+
+Original command: op plugin clear aws
+Parsed command: op plugin clear aws
+Options:
+
+--------------------------------------------------
+
+Original command: locate op/plugins.sh
+Parsed command: locate op/plugins.sh
+Options:
+
+--------------------------------------------------
+
+Original command: locate /op/plugins.sh
+Parsed command: locate /op/plugins.sh
+Options:
+
+--------------------------------------------------
+
+Original command: locate plugins.sh
+Parsed command: locate plugins.sh
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/
+Parsed command: ls ~/
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/.op/
+Parsed command: ls ~/.op/
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/.config/op/
+Parsed command: ls ~/.config/op/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/.config/op/
+Parsed command: cd ~/.config/op/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: code plugins.sh
+Parsed command: code plugins.sh
+Options:
+
+--------------------------------------------------
+
+Original command: rm plugins*
+Parsed command: rm plugins*
+Options:
+
+--------------------------------------------------
+
+Original command: rm -rf plugins*
+Parsed command: rm
+Options:
+  rf: plugins*
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: sudo q debug fix-permissions
+Parsed command: sudo q debug fix-permissions
+Options:
+
+--------------------------------------------------
+
+Original command: q
+Parsed command: q
+Options:
+
+--------------------------------------------------
+
+Original command: sudo q debug fix-permissions
+Parsed command: sudo q debug fix-permissions
+Options:
+
+--------------------------------------------------
+
+Original command: brew install --cask amazon-q
+Parsed command: brew install
+Options:
+  cask: amazon-q
+
+--------------------------------------------------
+
+Original command: sudo q debug fix-permissions
+Parsed command: sudo q debug fix-permissions
+Options:
+
+--------------------------------------------------
+
+Original command: sudo amazon-q debug fix-permissions
+Parsed command: sudo amazon-q debug fix-permissions
+Options:
+
+--------------------------------------------------
+
+Original command: q
+Parsed command: q
+Options:
+
+--------------------------------------------------
+
+Original command: locate q | grep /bin
+Parsed command: locate q | grep /bin
+Options:
+
+--------------------------------------------------
+
+Original command: locate -b 'q' | grep /bin
+Parsed command: locate
+Options:
+  b: 'q'
+
+--------------------------------------------------
+
+Original command: brew install --cask amazon-q
+Parsed command: brew install
+Options:
+  cask: amazon-q
+
+--------------------------------------------------
+
+Original command: q
+Parsed command: q
+Options:
+
+--------------------------------------------------
+
+Original command: brew uninstall amazon-q
+Parsed command: brew uninstall amazon-q
+Options:
+
+--------------------------------------------------
+
+Original command: brew install --cask amazon-q
+Parsed command: brew install
+Options:
+  cask: amazon-q
+
+--------------------------------------------------
+
+Original command: aws s3
+Parsed command: aws s3
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls
+Parsed command: aws s3 ls
+Options:
+
+--------------------------------------------------
+
+Original command: aws sso login
+Parsed command: aws sso login
+Options:
+
+--------------------------------------------------
+
+Original command: aws s3 ls
+Parsed command: aws s3 ls
+Options:
+
+--------------------------------------------------
+
+Original command: showFiles
+Parsed command: showFiles
+Options:
+
+--------------------------------------------------
+
+Original command: showfiles
+Parsed command: showfiles
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: google lode lag gaye
+Parsed command: google lode lag gaye
+Options:
+
+--------------------------------------------------
+
+Original command: code ../credentials
+Parsed command: code ../credentials
+Options:
+
+--------------------------------------------------
+
+Original command: mongod
+Parsed command: mongod
+Options:
+
+--------------------------------------------------
+
+Original command: brew tap mongodb/brew
+Parsed command: brew tap mongodb/brew
+Options:
+
+--------------------------------------------------
+
+Original command: brew update
+Parsed command: brew update
+Options:
+
+--------------------------------------------------
+
+Original command: brew install mongodb-community@8.0
+Parsed command: brew install mongodb-community@8.0
+Options:
+
+--------------------------------------------------
+
+Original command: brew services start mongodb-community@8.0
+Parsed command: brew services start mongodb-community@8.0
+Options:
+
+--------------------------------------------------
+
+Original command: brew services list
+Parsed command: brew services list
+Options:
+
+--------------------------------------------------
+
+Original command: npm run activity-logger-start
+Parsed command: npm run activity-logger-start
+Options:
+
+--------------------------------------------------
+
+Original command: npm run evidence-pack-worker-start
+Parsed command: npm run evidence-pack-worker-start
+Options:
+
+--------------------------------------------------
+
+Original command: npm install npm run migrate npm run build-antd brew doctor brew link --force libpq
+Parsed command: npm install npm run migrate npm run build-antd brew doctor brew link
+Options:
+  force: libpq
+
+--------------------------------------------------
+
+Original command: psql --version
+Parsed command: psql
+Options:
+  version: (flag, no value)
+
+--------------------------------------------------
+
+Original command: node scripts/db-list.js --profile:sprinto-dev
+Parsed command: node scripts/db-list.js
+Options:
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: node scripts/db-checkout.js
+Options:
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: psql -c 'create database sprinto_base_2023_06_21 node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: psql
+Options:
+  c: 'create
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: ls /Library/PostgreSQL/16/../16/
+Parsed command: ls /Library/PostgreSQL/16/../16/
+Options:
+
+--------------------------------------------------
+
+Original command: cd /Library/PostgreSQL/16/../16/
+Parsed command: cd /Library/PostgreSQL/16/../16/
+Options:
+
+--------------------------------------------------
+
+Original command: cd data/
+Parsed command: cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: sudo cd data/
+Parsed command: sudo cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: sudo cd data/
+Parsed command: sudo cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd data/
+Parsed command: cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: sudo cd data/
+Parsed command: sudo cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd lib/
+Parsed command: cd lib/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd bin/
+Parsed command: cd bin/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: cd data/
+Parsed command: cd data/
+Options:
+
+--------------------------------------------------
+
+Original command: su -
+Parsed command: su
+Options:
+  : (flag, no value)
+
+--------------------------------------------------
+
+Original command: su
+Parsed command: su
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: node scripts/db-checkout.js
+Options:
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: cd ~/Sprinto/sprinto/
+Parsed command: cd ~/Sprinto/sprinto/
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: node scripts/db-checkout.js
+Options:
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: locate pg_ident.conf
+Parsed command: locate pg_ident.conf
+Options:
+
+--------------------------------------------------
+
+Original command: sudo locate pg_ident.conf
+Parsed command: sudo locate pg_ident.conf
+Options:
+
+--------------------------------------------------
+
+Original command: ls /Library/PostgreSQL/16/data/
+Parsed command: ls /Library/PostgreSQL/16/data/
+Options:
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev
+Parsed command: node scripts/db-checkout.js
+Options:
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+
+--------------------------------------------------
+
+Original command: node scripts/db-checkout.js --remote-db:sprinto_base_2023_06_21 --profile:sprinto-dev --docker:yes
+Parsed command: node scripts/db-checkout.js
+Options:
+  remote-db: sprinto_base_2023_06_21
+  profile: sprinto-dev
+  docker: yes
+
+--------------------------------------------------
+
+Original command: npm run start:dev
+Parsed command: npm run start:dev
+Options:
+
+--------------------------------------------------
+
+Original command: npm run debug
+Parsed command: npm run debug
+Options:
+
+--------------------------------------------------
+
+Original command: npm run start:dev
+Parsed command: npm run start:dev
+Options:
+
+--------------------------------------------------
+
+Original command: node createUser.js
+Parsed command: node createUser.js
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: ~/.zshrc
+Parsed command: ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: ~/.zshrc
+Parsed command: ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: ~/.aws/config
+Parsed command: ~/.aws/config
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/.aws/
+Parsed command: cd ~/.aws/
+Options:
+
+--------------------------------------------------
+
+Original command: config
+Parsed command: config
+Options:
+
+--------------------------------------------------
+
+Original command: source ~/.zshrc
+Parsed command: source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: config
+Parsed command: config
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: source ~/.zshrc
+Parsed command: source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: config
+Parsed command: config
+Options:
+
+--------------------------------------------------
+
+Original command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Parsed command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Options:
+
+--------------------------------------------------
+
+Original command: sudo chown -R subhamtibra /usr/local/bin config
+Parsed command: sudo chown
+Options:
+  R: subhamtibra
+
+--------------------------------------------------
+
+Original command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Parsed command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/.aws/
+Parsed command: cd ~/.aws/
+Options:
+
+--------------------------------------------------
+
+Original command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Parsed command: sso/cache/2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Options:
+
+--------------------------------------------------
+
+Original command: cd sso/cache/
+Parsed command: cd sso/cache/
+Options:
+
+--------------------------------------------------
+
+Original command: ./2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Parsed command: ./2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Options:
+
+--------------------------------------------------
+
+Original command: 2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Parsed command: 2a4a13b61944d26286b500bc8bb47a4f1722bb49.json
+Options:
+
+--------------------------------------------------
+
+Original command: source ~/.zshrc
+Parsed command: source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: cd ../ cd ../../Sprinto/sprinto/ chmod +x frequentCommands.zsh
+Parsed command: cd ../ cd ../../Sprinto/sprinto/ chmod +x frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_history
+Parsed command: code ~/.zsh_history
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: pkill frequencyCommand
+Parsed command: pkill frequencyCommand
+Options:
+
+--------------------------------------------------
+
+Original command: pgrep frequencyCommand
+Parsed command: pgrep frequencyCommand
+Options:
+
+--------------------------------------------------
+
+Original command: pgrep frequency
+Parsed command: pgrep frequency
+Options:
+
+--------------------------------------------------
+
+Original command: top
+Parsed command: top
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: cd ../../PersonalProjects/
+Parsed command: cd ../../PersonalProjects/
+Options:
+
+--------------------------------------------------
+
+Original command: mkdir AliasForFrequentCommands
+Parsed command: mkdir AliasForFrequentCommands
+Options:
+
+--------------------------------------------------
+
+Original command: cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Parsed command: cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zshrc
+Parsed command: launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands ./
+Parsed command: launchctl start com.user.frequentcommands ./
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Parsed command: launchctl start com.user.frequentcommands cp com.user.frequentcommands.plist ~/Library/LaunchAgents
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands code ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Parsed command: launchctl start com.user.frequentcommands code ~/Library/LaunchAgents/com.user.frequentcommands.plist
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands awsssolog
+Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands awsssolog
+Options:
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: cd AliasForFrequentCommands/
+Parsed command: cd AliasForFrequentCommands/
+Options:
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.gitconfig
+Parsed command: code ~/.gitconfig
+Options:
+
+--------------------------------------------------
+
+Original command: git commit -m "checking config" --allow-empty
+Parsed command: git commit
+Options:
+  m: "checking config"
+  allow-empty: (flag, no value)
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: git commit -m "checking config" --allow-empty
+Parsed command: git commit
+Options:
+  m: "checking config"
+  allow-empty: (flag, no value)
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: pwd
+Parsed command: pwd
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/Sprinto/sprinto/
+Parsed command: cd ~/Sprinto/sprinto/
+Options:
+
+--------------------------------------------------
+
+Original command: git commit -m "checking config" --allow-empty
+Parsed command: git commit
+Options:
+  m: "checking config"
+  allow-empty: (flag, no value)
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: git reset master
+Parsed command: git reset master
+Options:
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: git reset HEAD~1
+Parsed command: git reset HEAD~1
+Options:
+
+--------------------------------------------------
+
+Original command: git log
+Parsed command: git log
+Options:
+
+--------------------------------------------------
+
+Original command: clear
+Parsed command: clear
+Options:
+
+--------------------------------------------------
+
+Original command: npm i -g bcryptjs
+Parsed command: npm i
+Options:
+  g: bcryptjs
+
+--------------------------------------------------
+
+Original command: node ../createUser.js yourpassword echo $PATH
+Parsed command: node ../createUser.js yourpassword echo $PATH
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.nvm/.npmrc
+Parsed command: code ~/.nvm/.npmrc
+Options:
+
+--------------------------------------------------
+
+Original command: cd ..
+Parsed command: cd ..
+Options:
+
+--------------------------------------------------
+
+Original command: node createUser.js yourpssword
+Parsed command: node createUser.js yourpssword
+Options:
+
+--------------------------------------------------
+
+Original command: npm i -g bcryptjs
+Parsed command: npm i
+Options:
+  g: bcryptjs
+
+--------------------------------------------------
+
+Original command: node createUser.js yourpssword
+Parsed command: node createUser.js yourpssword
+Options:
+
+--------------------------------------------------
+
+Original command: which npm
+Parsed command: which npm
+Options:
+
+--------------------------------------------------
+
+Original command: ls ~/.nvm/versions/node/v18.20.2/bin/
+Parsed command: ls ~/.nvm/versions/node/v18.20.2/bin/
+Options:
+
+--------------------------------------------------
+
+Original command: cd ~/.nvm/versions/node/v18.20.2/bin/
+Parsed command: cd ~/.nvm/versions/node/v18.20.2/bin/
+Options:
+
+--------------------------------------------------
+
+Original command: ls
+Parsed command: ls
+Options:
+
+--------------------------------------------------
+
+Original command: npm root -g
+Parsed command: npm root
+Options:
+  g: (flag, no value)
+
+--------------------------------------------------
+
+Original command: npm root -g | cd
+Parsed command: npm root
+Options:
+  g: |
+
+--------------------------------------------------
+
+Original command: npm root -g >>  cd
+Parsed command: npm root
+Options:
+  g: >>
+
+--------------------------------------------------
+
+Original command: cd
+Parsed command: cd
+Options:
+
+--------------------------------------------------
+
+Original command: npm root -g | cd $0
+Parsed command: npm root
+Options:
+  g: |
+
+--------------------------------------------------
+
+Original command: npm root -g | cd $1
+Parsed command: npm root
+Options:
+  g: |
+
+--------------------------------------------------
+
+Original command: npm root -g | cd $2
+Parsed command: npm root
+Options:
+  g: |
+
+--------------------------------------------------
+
+Original command: S=npm root -g | cd $S
+Parsed command: S=npm root
+Options:
+  g: |
+
+--------------------------------------------------
+
+Original command: npm ls -g --depth=0
+Parsed command: npm ls
+Options:
+  g: (flag, no value)
+  depth: 0
+
+--------------------------------------------------
+
+Original command: npm get prefix
+Parsed command: npm get prefix
+Options:
+
+--------------------------------------------------
+
+Original command: echo $NODE_PATH
+Parsed command: echo $NODE_PATH
+Options:
+
+--------------------------------------------------
+
+Original command: cd Sprinto/sprinto/
+Parsed command: cd Sprinto/sprinto/
+Options:
+
+--------------------------------------------------
+
+Original command: echo $NODE_PATH
+Parsed command: echo $NODE_PATH
+Options:
+
+--------------------------------------------------
+
+Original command: echo export NODE_PATH=`npm root -g`$NODE_PATH >> ~/.zshrc
+Parsed command: echo export NODE_PATH=`npm root
+Options:
+  g`$NODE_PATH: >>
+
+--------------------------------------------------
+
+Original command: code ~/.zshrc
+Parsed command: code ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: npm root -g
+Parsed command: npm root
+Options:
+  g: (flag, no value)
+
+--------------------------------------------------
+
+Original command: echo "export NODE_PATH=`npm root -g`$NODE_PATH" >> ~/.zshrc
+Parsed command: echo "export NODE_PATH=`npm root -g`$NODE_PATH" >> ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: source ~/.zshrc
+Parsed command: source ~/.zshrc
+Options:
+
+--------------------------------------------------
+
+Original command: echo $NODE_PATH
+Parsed command: echo $NODE_PATH
+Options:
+
+--------------------------------------------------
+
+Original command: node ../createUser.js yourpssword
+Parsed command: node ../createUser.js yourpssword
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Parsed command: launchctl unload ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl load ~/Library/LaunchAgents/com.user.frequentcommands.plist launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Parsed command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Parsed command: launchctl start com.user.frequentcommands code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: g log
+Parsed command: g log
+Options:
+
+--------------------------------------------------
+
+Original command: ./frequentCommands.zsh
+Parsed command: ./frequentCommands.zsh
+Options:
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~10
+Parsed command: git rebase
+Options:
+  i: HEAD~10
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~6
+Parsed command: git rebase
+Options:
+  i: HEAD~6
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~5
+Parsed command: git rebase
+Options:
+  i: HEAD~5
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~4
+Parsed command: git rebase
+Options:
+  i: HEAD~4
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~2
+Parsed command: git rebase
+Options:
+  i: HEAD~2
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~1
+Parsed command: git rebase
+Options:
+  i: HEAD~1
+
+--------------------------------------------------
+
+Original command: git config --global core.editor "code --wait"
+Parsed command: git config
+Options:
+  global: core.editor
+
+--------------------------------------------------
+
+Original command: git rebase -i HEAD~1
+Parsed command: git rebase
+Options:
+  i: HEAD~1
+
+--------------------------------------------------
+
+Original command: git push -f
+Parsed command: git push
+Options:
+  f: (flag, no value)
+
+--------------------------------------------------
+
+Original command: python parseCommand.py
+Parsed command: python parseCommand.py
+Options:
+
+--------------------------------------------------
+
+Original command: conda activate
+Parsed command: conda activate
+Options:
+
+--------------------------------------------------
+
+Original command: . /opt/anaconda3/bin/activate && conda activate /opt/anaconda3; 
+Parsed command: . /opt/anaconda3/bin/activate && conda activate /opt/anaconda3;
+Options:
+
+--------------------------------------------------
+
+Original command: conda
+Parsed command: conda
+Options:
+
+--------------------------------------------------
+
+Original command: ./opt/anaconda3/bin/activate && conda activate /opt/anaconda3
+Parsed command: ./opt/anaconda3/bin/activate && conda activate /opt/anaconda3
+Options:
+
+--------------------------------------------------
+
+Original command: . /opt/anaconda3/bin/activate && conda activate /opt/anaconda3
+Parsed command: . /opt/anaconda3/bin/activate && conda activate /opt/anaconda3
+Options:
+
+--------------------------------------------------
+
+Original command: python parseCommand.py
+Parsed command: python parseCommand.py
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_aliases
+Parsed command: code ~/.zsh_aliases
+Options:
+
+--------------------------------------------------
+
+Original command: code ~/.zsh_history
+Parsed command: code ~/.zsh_history
+Options:
+
+--------------------------------------------------
+
+Original command: python testParser.py
+Parsed command: python testParser.py
+Options:
+
+--------------------------------------------------
+
+Original command: python testParser.py > results.txt
+Parsed command: python testParser.py > results.txt
+Options:
+
+--------------------------------------------------
+
