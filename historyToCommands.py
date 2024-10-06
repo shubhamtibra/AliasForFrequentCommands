@@ -27,7 +27,7 @@ def extract_commands_from_history(history_file):
 
 history_file = '/Users/subhamtibra/.zsh_history'
 commands = list(extract_commands_from_history(history_file))
-commands = [parse_command_line(command)[0] for command in commands]
+commands = [parse_command_line(command, full_command=True)[0] for command in commands]
 
 
 command_counts = Counter(commands)
@@ -37,7 +37,7 @@ total_commands = len(commands)
 threshold = total_commands * 0.01
 
 frequent_commands = {cmd: count for cmd, count in command_counts.items() if count > threshold}
-print(f"Frequent commands: {len(frequent_commands)}")
+print(f"Frequent commands: {(frequent_commands)}")
 
 # Read existing aliases
 existing_aliases = set()

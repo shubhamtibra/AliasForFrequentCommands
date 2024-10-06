@@ -1,7 +1,10 @@
 import re
 
-def parse_command_line(command_line, include_flags=True):
+def parse_command_line(command_line, include_flags=True, full_command=False):
     tokens = re.findall(r'(?:[^\s,"]|"(?:\\.|[^"])*")+', command_line)
+    #print(command_line, tokens)
+    if full_command:
+        return " ".join(tokens), {}
     command = []
     i = 0
     while i < len(tokens) and not tokens[i].startswith('-'):
@@ -43,7 +46,6 @@ def parse_command_line(command_line, include_flags=True):
                     else:
                         options[option] = None
         i += 1
-    
     return command, options
 if __name__ == "__main__":
     # Example usage
