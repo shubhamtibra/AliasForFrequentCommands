@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.historytocommands</string>
+    <key>Program</key>
+    <string>/usr/bin/python3</string>
+    <key>ProgramArguments</key>
+    <array>
+    <string>/Users/subhamtibra/PersonalProjects/AliasForFrequentCommands/historyToCommands.py</string>
+    </array>
+  <key>WorkingDirectory</key>
+    <string>/Users/subhamtibra/PersonalProjects/AliasForFrequentCommands</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/subhamtibra</string>
+    </dict>
+    <key>StartInterval</key>
+    <integer>86400</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.user.historytocommands.stdout</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.user.historytocommands.stderr</string>
+</dict>
+</plist>
