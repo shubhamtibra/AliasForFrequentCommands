@@ -8,8 +8,7 @@ logging.basicConfig(filename=log_file, level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S')
 
-def log_print(message):
-    logging.info(message)
+
 def parse_command_line(command_line, include_flags=True, full_command=False):
     """
     Parse a command line into command and options.
@@ -22,14 +21,14 @@ def parse_command_line(command_line, include_flags=True, full_command=False):
     Returns:
     tuple: A tuple containing the command and a dictionary of options.
     """
-    log_print(f"=== Parsing command line: {command_line} ===")
-    log_print(f"Include flags: {include_flags}, Full command: {full_command}")
+    logging.info(f"=== Parsing command line: {command_line} ===")
+    logging.info(f"Include flags: {include_flags}, Full command: {full_command}")
     
     tokens = re.findall(r'(?:[^\s,"]|"(?:\\.|[^"])*")+', command_line)
-    log_print(f"Tokens: {tokens}")
+    logging.info(f"Tokens: {tokens}")
 
     if full_command:
-        log_print("Returning full command")
+        logging.info("Returning full command")
         return " ".join(tokens), {}
     
     command = []
@@ -38,17 +37,17 @@ def parse_command_line(command_line, include_flags=True, full_command=False):
         command.append(tokens[i])
         i += 1
     command = ' '.join(command)
-    log_print(f"Extracted command: {command}")
+    logging.info(f"Extracted command: {command}")
     
     options = {}
     i = 1
     while i < len(tokens):
         token = tokens[i]
-        log_print(f"Processing token: {token}")
+        logging.info(f"Processing token: {token}")
         if token.startswith('-'):
             if token.startswith('--'):
                 # Long option
-                log_print("Processing long option")
+                logging.info("Processing long option")
                 if '=' in token:
                     option, value = token.split('=', 1)
                     options[option] = value
@@ -66,7 +65,7 @@ def parse_command_line(command_line, include_flags=True, full_command=False):
                         else:
                             options[option] = None
             else:
-                log_print("Processing short option")
+                logging.info("Processing short option")
                 # Short option
                 option = token
                 if i + 1 < len(tokens) and not tokens[i + 1].startswith('-'):
@@ -78,8 +77,8 @@ def parse_command_line(command_line, include_flags=True, full_command=False):
                     else:
                         options[option] = None
         i += 1
-    log_print(f"Final parsed command: {command}")
-    log_print(f"Final options: {options}")
+    logging.info(f"Final parsed command: {command}")
+    logging.info(f"Final options: {options}")
     return command, options
 
 if __name__ == "__main__":
@@ -87,10 +86,10 @@ if __name__ == "__main__":
     command_line = 'git commit -m "Initial commit" --amend --author:"John Doe <john@example.com>" --no-edit'
     command, options = parse_command_line(command_line)
 
-    log_print(f"Command: {command}")
-    log_print("Options:")
+    logging.info(f"Command: {command}")
+    logging.info("Options:")
     for option, value in options.items():
         if value:
-            log_print(f"  {option}: {value}")
+            logging.info(f"  {option}: {value}")
         else:
-            log_print(f"  {option}: (flag, no value)")
+            logging.info(f"  {option}: (flag, no value)")

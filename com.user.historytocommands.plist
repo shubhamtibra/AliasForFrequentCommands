@@ -4,14 +4,22 @@
 <dict>
     <key>Label</key>
     <string>com.user.historytocommands</string>
-    <key>Program</key>
-    <string>/usr/bin/python3</string>
+    
     <key>ProgramArguments</key>
     <array>
-    <string>/Users/subhamtibra/PersonalProjects/AliasForFrequentCommands/historyToCommands.py</string>
+        <string>/usr/bin/python3</string>
+        <string>/Users/subhamtibra/PersonalProjects/AliasForFrequentCommands/historyToCommands.py</string>
     </array>
-  <key>WorkingDirectory</key>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>StartInterval</key>
+    <integer>86400</integer>
+    
+    <key>WorkingDirectory</key>
     <string>/Users/subhamtibra/PersonalProjects/AliasForFrequentCommands</string>
+    
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
@@ -19,10 +27,10 @@
         <key>HOME</key>
         <string>/Users/subhamtibra</string>
     </dict>
-    <key>StartInterval</key>
-    <integer>86400</integer>
+    
     <key>StandardOutPath</key>
     <string>/tmp/com.user.historytocommands.stdout</string>
+    
     <key>StandardErrorPath</key>
     <string>/tmp/com.user.historytocommands.stderr</string>
 </dict>
